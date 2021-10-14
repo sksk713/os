@@ -34,5 +34,4 @@ current가 prio가 가장 높은데 같은 prio를 가진 프로세스가 존재
 current를 readyqueue로 보냈다.
 - Pip_schedule
 pip스케쥴러는 acquire과정에서 수업시간에 배운 대로 r->owner->prio의 값을 current->prio
-로 바꿔줘서 다른 프로세스에게 리소스를 뺏기지 않도록 한다. 그 외에는 pcp스케쥴러와 동
-일하다.
+로 바꿔줘서 다른 프로세스에게 리소스를 뺏기지 않도록 한다. 그 외에는 pcp스케쥴러와 동일하다.
